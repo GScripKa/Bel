@@ -1,125 +1,51 @@
-#EXTM3U url-tvg=https://iptvx.one/epg/epg.xml.gz deinterlace=1 aspect-ratio=None
-#EXTINF:-1, Плейлист от Маvv !
-http://ott.server-iptv.live/214/video.m3u8?token=S933AAA01B
-#EXTINF:-1,Соловьев Live HD
-http://91.207.115.228:5000/c27
-#EXTINF:-1,Беларусь 24
-https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1008231497_b5160000_sleng.m3u8
-#EXTINF:-1,БЕЛАРУСЬ 24  (Ждём)
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1,Беларусь 24 HD (Ждём)
-http://dmi3y-tv.ru/hls/blrus/CH_BELARUS24HD.m3u8
-#EXTINF:-1,БЕЛРОС
-http://live2.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
-#EXTINF:-1,БелРос
-https://live3.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
-#EXTINF:-1,Белрос
-http://uiptv.do.am/1ufc/116316122/playlist.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1,БелРос
-http://live2.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
-#EXTINF:-1,СТБ бел
-http://80.94.225.126:8080/STV/mono.m3u8
-#EXTINF:-1,ONT
-https://edge56.dc.beltelecom.by/ont/_definst_/ont/chunklist_w316090515.m3u8
-#EXTINF:-1,РТР-Беларусь
-http://194.158.222.36:6105
-#EXTINF:-1,РТР-Беларусь
-http://86.57.211.182:32200/RTR_Belarus/index.m3u8?auth=token:test
-#EXTINF:-1,НТВ-Беларусь
-http://194.158.222.36:6106
-#EXTINF:-1,НТВ-Беларусь
-http://86.57.211.182:32200/NTV_Belarus/index.m3u8?auth=token:test
-#EXTINF:-1,Мир (Беларусь)
-http://194.158.222.36:6104
-#EXTINF:-1,Беларусь 1
-https://edge60.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w1244197741_b1460000_sleng.m3u8
+#EXTM3U url-tvg="http://epgx.site/epg_lite.xml.gz"
+
+#EXTINF:-1,Первый канал
+http://188.190.222.48:8765/1_kanal_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Россия 1
+https://player.smotrim.ru/iframe/stream/live_id/2961?43e=4.m3u8
+http://91.90.255.235:8000/play/a00g/index.m3u8
 #EXTINF:-1,Беларусь 1 HD
-http://86.57.211.182:32200/Belarus_1/index.m3u8?auth=token:test
-#EXTINF:-1,Беларусь 2
-http://82.209.197.187:8080/udp/239.0.100.2:1234
-#EXTINF:-1,Беларусь 3
-https://edge60.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w14452038_b1460000_sleng.m3u8
-#EXTINF:-1,Беларусь 4
-http://86.57.211.182:32200/Belarus4/index.m3u8?auth=token:test
-#EXTINF:-1,Беларусь 5
-http://82.209.197.187:8080/udp/239.0.100.9:1234
-#EXTINF:-1,Беларусь 5 (Ждём)
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
-#EXTINF:-1,Беларусь 4 (Mogilev)
-http://82.209.197.187:8080/udp/239.0.100.125:1234
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
+#EXTINF:-1,Беларусь 2 HD
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
+#EXTINF:-1,Беларусь 3 HD
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
+#EXTINF:-1,РТР-Беларусь
+https://mfe.svc.ott.zala.by/hls/7MQSYYGHFE_HLS/variant.m3u8?version=2
 #EXTINF:-1,ОНТ
-http://82.209.197.187:8080/udp/239.0.100.4:1234
-#EXTINF:-1,НТВ Беларусь
-http://82.209.197.187:8080/udp/239.0.100.6:1234
-#EXTINF:-1,РТР Беларусь
-http://82.209.197.187:8080/udp/239.0.100.7:1234
-#EXTINF:-1,BTB HD
-http://82.209.197.187:8080/udp/239.0.100.26:1234
-#EXTINF:-1,8 канал
-http://82.209.197.187:8080/udp/239.0.100.124:1234
-#EXTINF:-1,Звязда
-http://82.209.197.187:8080/udp/239.0.100.142:1234
-#EXTINF:-1,Ретро
-http://82.209.197.187:8080/udp/239.0.100.92:1234
-#EXTINF:-1,Домашние животные
-http://82.209.197.187:8080/udp/239.0.100.93:1234
-#EXTINF:-1,USADBA
-http://82.209.197.187:8080/udp/239.0.100.94:1234
+https://mfe.svc.ott.zala.by/hls/NCLEFHVZGR_HLS/variant.m3u8?version=2
 #EXTINF:-1,СТВ
-http://82.209.197.187:8080/udp/239.0.100.5:1234
-#EXTINF:-1,Бобруйск 360
-http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
-#EXTINF:-1,Бобруйск 360
-http://82.209.197.187:8080/udp/239.0.100.38:1234
-#EXTINF:-1,Белрос
-http://82.209.197.187:8080/udp/239.0.100.123:1234
-#EXTINF:-1,Беларусь 1
-http://82.209.197.187:8080/udp/239.0.100.1:1234
-#EXTINF:-1,Беларусь 1
-http://86.57.178.105:8421/bel1
-#EXTINF:-1,Беларусь 3
-http://82.209.197.187:8080/udp/239.0.100.3:1234
-#EXTINF:-1,МКТВ HD (Молодечно)
-http://178.124.179.122:8088/MKTV/index.m3u8
-#EXTINF:-1,ТРО
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1,Белрос
-http://uiptv.do.am/1ufc/116316122/playlist.m3u8
-#EXTINF:-1,БелРос ТВ
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1,Белсат HD 
-http://f1.stream.devkom.pro:1063/ramowka/video.m3u8
-#EXTINF:-1,Белсат ТВ
-http://f1.stream.devkom.pro:1063/ramowka/tracks-v1a1/index.m3u8
-#EXTINF:-1,Белсат HD
-https://m3u8.ott.blue/watch/149/video.m3u8?geo=auto&token=94450098895765784220366841698509
-#EXTINF:-1,Беларусь 5 Интернет
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8 
-#EXTINF:-1,Беларусь 5 Интернет [1280x720]
-https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int.smil/chunklist_w278966610_b1460000_sleng.m3u8
-#EXTINF:-1,Беларусь 5
-https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int.smil/chunklist_w654405596_b2660000_sleng.m3u8
-#EXTINF:-1,Беларусь 5
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
-#EXTINF:-1,Беларусь 5
-http://194.158.222.36:6109
-#EXTINF:-1,Беларусь 5
-https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_b1010000_sleng.m3u8
-#EXTINF:-1,Беларусь 5
-https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int.smil/chunklist_b1010000_sleng.m3u8
-#EXTINF:-1,Беларусь 5
-https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_b1460000_sleng.m3u8
-#EXTINF:-1,Беларусь 5
-https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int.smil/chunklist_b1460000_sleng.m3u8
+https://mfe.svc.ott.zala.by/hls/RZEQ3BLSTY_HLS/variant.m3u8?version=2
+#EXTINF:-1,РБК
+http://online.video.rbc.ru/online2/rbctv_1080p/index.m3u8
+#EXTINF:-1,НТВ
+https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
+#EXTINF:-1,НТВ-Беларусь
+https://mfe.svc.ott.zala.by/hls/DYJ5GH8HOK_HLS/variant.m3u8?version=2
+#EXTINF:-1,Неизвестная Россия (HD)
+https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
+#EXTINF:-1,Мир HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+#EXTINF:-1,МИР 24 HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1,НТВ Сериал
+http://cdn2.ntv.ru/th_serial/tracks-v1a1/mono.m3u8
+#EXTINF:-1,НТВ Стиль
+http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8
+#EXTINF:-1,НТВ Хит
+http://cdn2.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
+#EXTINF:-1,НТВ Право
+http://cdn2.ntv.ru/th_pravo/tracks-v1a1/mono.m3u8
+#EXTINF:-1,RTG HD
+https://strm.yandex.ru/kal/rtg/rtg0.m3u8
+#EXTINF:-1,ТНТ Music
+https://livetv.mylifeisgood.net.ru/channels/tntmusicru.m3u8
 #EXTINF:-1,Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
-#EXTINF:-1,Беларусь 5
-https://edge50.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
-#EXTINF:-1,НТВ-Беларусь
-http://86.57.211.182:32200/NTV_Belarus/index.m3u8
-#EXTINF:-1,РТР-Беларусь
-http://86.57.211.182:32200/RTR_Belarus/index.m3u8
-#EXTINF:-1,СТВ Семеновский
-https://stvpro-live.cdnvideo.ru/stvpro-tcode1/stvpro1/playlist.m3u8
-#EXTINF:-1,БелМуз
-http://178.124.179.122:8088/BelMuzTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1,Беларусь 5 Интернет
+https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5int/playlist.m3u8
+#EXTINF:-1,Eurosport 1
+http://45.159.74.14:80/Eurosport/tracks-v1a2/mono.m3u8
+#EXTINF:-1,Первый музыкальный HD
+http://rtmp.one.by:2300
